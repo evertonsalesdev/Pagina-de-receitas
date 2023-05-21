@@ -1,0 +1,114 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    background-color: #ff6b28;
+    padding: 5px;
+    text-align: center;
+}
+
+.header{
+    height: 450px;
+    background: url(./images/hero_bolo.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.content{
+    width: 1000px;
+    margin: auto;
+}
+
+.content h1{
+    color: #ff6b28;
+    padding-top: 100px;
+}
+
+.content h2{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #ff6b28;
+    font-size: 18px;
+}
+
+.content ul{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.content li{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+.button{
+    width: 190px;
+    padding: 5px;
+    height: 35px;
+    background-color: #ff6b28;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.button p{
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content p a{
+    text-decoration: none;
+    color: white;
+}
+
+.content ol{
+    width: 550px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.instrucoes p{
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #ff6b28;
+    height: 100%;
+    
+}
+
+.footer p{
+    width: 450px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: #000000;
+}
+
+.button:hover{
+    background-color: #333
+}
+
